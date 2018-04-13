@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:id="@+id/activity_detail_constraint_layout"
     android:layout_height="match_parent"
+    android:background="@color/black_background"
     tools:context=".DetailActivity">
 
     <ImageView
@@ -33,7 +34,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="Tap for info"
-        android:textColor="#ffffff"
+        android:textColor="@android:color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,13 +45,13 @@
         android:id="@+id/activity_detail_tv_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#181818"
+        android:background="@color/black_background"
         android:gravity="center"
         android:paddingBottom="8dp"
         android:paddingEnd="8dp"
         android:paddingStart="8dp"
         android:text="Al Everest se le conoce en Nepal como Sagarmāthā (‘La frente del cielo’), en el Tíbet como Chomolungma o Qomolangma (‘Madre del universo’) y en China como Zhūmùlǎngmǎ Fēng."
-        android:textColor="#FFFF"
+        android:textColor="@android:color/white"
         android:textSize="22sp"
         app:layout_constraintTop_toBottomOf="@+id/activity_detail_iv"
         app:layout_constraintLeft_toLeftOf="parent"
